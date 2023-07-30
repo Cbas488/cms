@@ -21,5 +21,6 @@
         @vite('resources/css/app.css')
     </head>
     <body class="antialiased">
+        @livewire('components.button', ['text' => "Love Button"])
     </body>
 </html>
