@@ -5,3 +5,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.icon_bold {
+    -webkit-text-stroke: 2px;
+}

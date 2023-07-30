@@ -21,6 +21,6 @@
         @vite('resources/css/app.css')
     </head>
     <body class="antialiased">
-        @livewire('components.button', ['text' => "Love Button"])
+        @livewire('components.button', ['text' => "Love Button", 'icon' => "chevron-right", 'direction' => "-reverse"])
     </body>
 </html>
