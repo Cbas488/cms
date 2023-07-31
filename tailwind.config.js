@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       boxShadow:{
-        button_shadow: '0px 4px 0px 0px #18191F'
+        button_shadow_down: '4px 4px 0px 0px #18191F'
       }
     },
   },

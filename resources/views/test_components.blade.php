@@ -20,7 +20,15 @@
         </style>
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased">
-        @livewire('components.button', ['text' => "Love Button", 'icon' => "chevron-right", 'direction' => "-reverse"])
+    <body class="px-2 gap-2 flex flex-row">
+        <div class="w-fit">
+            @livewire('components.button', ['text' => "Love Button", 'icon' => "chevron-right", 'direction' => "-reverse"])
+        </div>
+        <div class="w-fit">
+            <div class="w-full flex flex-row justify-start items-center p-3 text-lg rounded-2xl border-2 gap-3 border-black">
+                <i class="icon_semibold text-2xl bi bi-person"></i>
+                <input class="p-0 placeholder:font-medium focus:outline-none placeholder:text-black" placeholder="Email Address" type="text" name="" id="">
+            </div> 
+        </div> 
     </body>
 </html>
